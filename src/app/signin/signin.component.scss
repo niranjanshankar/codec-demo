@@ -1,0 +1,68 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .signin-container {
+        padding: 48px;
+        border: 1px solid blue;
+        img {
+            margin-bottom: 60px;
+        }
+
+        .logo-and-form {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .signin-form {
+                border: 1px solid black;
+                > div {
+                    padding: 0 24px 24px 24px;
+                }
+                p {
+                    margin-top: 0;
+                    background-color: blue;
+                    color: white;
+                    text-align: center;
+                    padding: 8px 0;
+                }
+
+                label {
+                    margin-bottom: 16px;
+
+                    input {
+                        padding: 4px;
+                    }
+                }
+
+                .button-holder {
+                    display: flex;
+                    justify-content: flex-end;
+
+                    button {
+                        cursor: pointer;
+                        background-color: blue;
+                        color: white;
+                        border: none;
+                        outline: none;
+                        padding: 8px;
+                        border-radius: 3px;
+                    }
+                }
+
+                .hyperlinks {
+                    display: flex;
+                    justify-content: center;
+
+                    a:first-child {
+                        margin-right: 24px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
